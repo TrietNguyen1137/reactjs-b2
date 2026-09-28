@@ -1,0 +1,25 @@
+.model-container {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.glasses-overlay {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 155px;
+  opacity: 0.85;
+  z-index: 2;
+  transition: all 0.2s ease-in-out;
+}
+
+.glasses-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 127, 80, 0.75);
+  z-index: 2;
+  backdrop-filter: blur(2px);
+}
